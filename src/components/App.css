@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.border-style {
+    border: 1px solid #666666;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #666666;
+    padding: 10px;
+    margin: 20px;
+}
+
+.content-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-style {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
+}
+
+.form-style {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
