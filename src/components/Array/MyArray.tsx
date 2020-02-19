@@ -1,3 +1,15 @@
+/**
+ * In the project directory, you can run: npm start
+ * Runs the app in the development mode.
+ * Open http://localhost:3000 to view it in the browser.
+ *
+ * You can enter array height and width to create an array.
+ * Input data can be only positive numbers and it can't be 0.
+ *
+ * To improve this realization it's possible to add client validation
+ * using for e.g. bootstrap validation styles.
+ */
+
 import React from "react";
 import {Button, Form, Col} from "react-bootstrap";
 import "../App.css";

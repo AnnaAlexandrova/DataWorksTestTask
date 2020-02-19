@@ -1,3 +1,15 @@
+/**
+ * In the project directory, you can run: npm start
+ * Runs the app in the development mode.
+ * Open http://localhost:3000 to view it in the browser.
+ *
+ * You can enter an expression to and chick a bracket sequences in it.
+ * Input date can't be empty.
+ *
+ * To improve this realization it's possible to add client validation
+ * using for e.g. bootstrap validation styles.
+ */
+
 import React from "react";
 import {Button, Col, Form} from "react-bootstrap";
 import "../App.css";

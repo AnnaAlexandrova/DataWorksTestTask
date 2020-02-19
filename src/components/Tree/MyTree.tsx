@@ -1,8 +1,24 @@
+/**
+ * In the project directory, you can run: npm start
+ * Runs the app in the development mode.
+ * Open http://localhost:3000 to view it in the browser.
+ *
+ * You can enter a sequence of numbers with whitespace as a split
+ * to create a binary tree and display it
+ * with traverse in depth and traverse in width.
+ * Input data can't be empty and can be only numbers.
+ *
+ * To improve this realization it's possible to add client validation
+ * using for e.g. bootstrap validation styles.
+ * It possible to make this realization with another types of data.
+ * Not only numbers. If add a comparator.
+ */
+
 import React from "react";
 import {Button, Form, Col} from "react-bootstrap";
-import {BinaryTree} from "./BinaryTree";
 import "../App.css";
 import "./MyTree.css";
+import {BinaryTree} from "./BinaryTree";
 
 type MyTreeProps = {}
 

@@ -1,7 +1,21 @@
+/**
+ * In the project directory, you can run: npm start
+ * Runs the app in the development mode.
+ * Open http://localhost:3000 to view it in the browser.
+ *
+ * You can enter date to create a month calendar with this date.
+ * Input date can be only numbers.
+ *
+ * To improve this realization it's possible to add client validation
+ * using for e.g. bootstrap validation styles.
+ * And may do validation for month (from 1 to 12) and for day
+ * (from 1 to possible count of days in current month).
+ */
+
 import React from "react";
 import {Button, Form, Col} from "react-bootstrap";
-import "./Calendar.css";
 import "../App.css";
+import "./Calendar.css";
 
 type CalendarProps = {};
 
